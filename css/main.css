@@ -20,4 +20,12 @@ html {
 
 body {
   margin: 0;
+  background-color: #6c7e8e;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: lighter;
 }
