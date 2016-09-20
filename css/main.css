@@ -24,7 +24,7 @@ body {
 
 main {
   background-color: #f5edde;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 }
 
 header {
@@ -34,7 +34,7 @@ header {
 }
 
 .title, .email {
-  width: 60%;
+  width: 70%;
 }
 
 .text {
@@ -55,5 +55,17 @@ footer {
 }
 
 .social {
-  width: 15%;
+  width: 25%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .title, .email {
+    width: 60%;
+  }
+
+  .social {
+    width: 15%;
+  }
+
 }
