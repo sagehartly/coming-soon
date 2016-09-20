@@ -22,23 +22,38 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: white;
-  font-size: 2rem;
-  font-family: 'Reenie Beanie', cursive;
-  font-weight: lighter;
+main {
+  background-color: #f5edde;
+  padding-bottom: 1em;
 }
 
 header {
   position: relative;
   text-align: center;
+  padding-top: 3rem;
 }
 
-.title {
+.title, .email {
   width: 60%;
 }
 
-p {
-  font-family: 'Palanquin', sans-serif;
-  padding: 0 2em 0 2em;
+.text {
+  position: relative;
+  text-align: center;
+  padding: 0 2em;
+}
+
+h1, p {
+  font-family: 'Arvo', serif;
+}
+
+footer {
+  background-color: #f7c241;
+  position: relative;
+  text-align: center;
+  padding: 1em 2em;
+}
+
+.social {
+  width: 15%;
 }
