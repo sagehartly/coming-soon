@@ -103,19 +103,23 @@ footer {
 
   .title {
     width: 50%;
+    max-width: 30em;
   }
 
   .email {
     width: 40%;
+    max-width: 30em;
   }
 
   .glasses {
     width: 20%;
+    max-width: 10em;
   }
 
   p {
     width: 60%;
     margin: 1em auto;
+    font-size: 120%;
   }
 
   .social {
