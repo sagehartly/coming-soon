@@ -68,8 +68,12 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
-  .title, .email {
+  .title {
     width: 60%;
+  }
+
+  .email {
+    width: 50%;
   }
 
   p {
@@ -124,6 +128,7 @@ footer {
 
   .social {
     width: 8%;
+    max-width: 5em;
   }
 
 }
