@@ -49,6 +49,7 @@ h1 {
 .text {
   position: relative;
   text-align: center;
+  margin: 0 1em;
 }
 
 h1, p {
